@@ -1,0 +1,16 @@
+{
+    "contents" : "Package: Stddif\nType: Package\nTitle: What the package does (short line)\nVersion: 1.0\nDate: 2014-09-26\nAuthor: Hiro_macchan\nMaintainer: Hiro_macchan<ptmatsui@gmail.com>\nDescription: Just only calculate the standardized difference between two group.\nLicense: MIT + file License\nImports:\n    MASS,\n    dummies\n",
+    "created" : 1411718007813.000,
+    "dirty" : false,
+    "encoding" : "SHIFT-JIS",
+    "folds" : "",
+    "hash" : "2897659954",
+    "id" : "13051853",
+    "lastKnownWriteTime" : 1411990815,
+    "path" : "E:/Users/HEER_matsui/Documents/GitHub/Hiro_macchan_OPEN/stddif/Stddif/DESCRIPTION",
+    "project_path" : "DESCRIPTION",
+    "properties" : {
+    },
+    "source_on_save" : false,
+    "type" : "dcf"
+}

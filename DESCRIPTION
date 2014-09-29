@@ -1,0 +1,12 @@
+Package: Stddif
+Type: Package
+Title: What the package does (short line)
+Version: 1.0
+Date: 2014-09-26
+Author: Hiro_macchan
+Maintainer: Hiro_macchan<ptmatsui@gmail.com>
+Description: Just only calculate the standardized difference between two group.
+License: MIT + file License
+Imports:
+    MASS,
+    dummies
