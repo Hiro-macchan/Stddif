@@ -69,9 +69,9 @@ fun_sef <- function (input_data,treat_vec_name) {
   }
 }
 
-#'Calculate Standardized Difference between two groups.(category)
+#'Calculate Standardized Difference between two groups with dataframe.
 #'
-#'@param input_data input dataframe with treatmend and responces
+#'@param input_data input dataframe contain treatment variable and responce variables
 #'@param treat_vec_name treatment columns name
 #'@return standardized differnce vector
 #'@export
