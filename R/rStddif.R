@@ -24,7 +24,7 @@ fun_sef_num <- function (vec_tr, vec_con) {
     e_tr  <- mean(vec_tr)
     e_con <- mean(vec_con)
     S     <- (var(vec_tr) + var(vec_con))/2
-    es    <- sqrt((e_tr - e_con)^2/S)
+    es    <- (e_tr - e_con) / sqrt(S)           # It should be allowed to be negative.
     return(es)
 }
 
