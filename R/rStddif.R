@@ -43,6 +43,7 @@ fun_sef <- function (input_data,treat_vec_name) {
   if(ncol(input_data) != 2){
     print("ERROR::Invarid column name!")
   }else{
+    input_data <- as.data.frame(input_data)
     treat_vec <- input_data[,treat_vec_name]
     if(length(unique(treat_vec)) < 2){
       print("ERROR::Invarid treatment category!")
